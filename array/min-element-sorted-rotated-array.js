@@ -13,7 +13,7 @@
  * Output: 1
  */
 
-const getMinInSortedArray = (_array) => {
+const getMinInSortedRotatedArray = (_array) => {
 	let start = 0;
 	let end = _array.length - 1;
 	if (_array[start] <= _array[end]) {
@@ -35,7 +35,7 @@ const getMinInSortedArray = (_array) => {
 	}
 };
 
-const findMinInSortedArray = (_array) => {
+const findMinInSortedRotatedArray = (_array) => {
 	let start = 0,
 		mid = 0,
 		end = _array.length - 1;
