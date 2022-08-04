@@ -72,10 +72,3 @@ class LruCache {
   }
 
 }
-
-(function main(pageList) {
-  const lruCache = new LruCache(3);
-  (pageList || []).forEach(element => {
-    lruCache.push(element);
-  });
-})([1, 2, 3, 1, 4, 5])
